@@ -14,10 +14,7 @@ let priceGal = document.getElementById("priceGal").value;
 // let initialVal = 0;
 let tip = 0;
 
-function tipAmount(tip) {
-    tip = subTotal * tipDecimal;
 
-}
 
 function totalBill() {
 
@@ -27,8 +24,16 @@ function totalBill() {
 
 console.log(tip);
 
-calcTip.addEventListener("click", totalBill);
-calcTip.addEventListener("click", tipAmount);
+
+document.getElementById("tip").addEventListener('click', tipAmount);
+function tipAmount() {
+    tip = subTotal * tipDecimal;
+
+}
+
+
+// calcTip.addEventListener("click", totalBill);
+// calcTip.addEventListener("click", tipAmount);
 
 
 
