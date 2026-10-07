@@ -16,21 +16,21 @@ let tip = 0;
 
 
 
-// function totalBill() {
+function totalBill() {
 
-//     let total = subTotal + tip;
+    let total = subTotal + tip;
 
-// }
+}
 
-// console.log(tip);
-tipAmount();
+console.log(tip);
+// tipAmount();
 
 document.getElementById("tip").addEventListener('click',tipAmount);
 
 function tipAmount() {
     tip = subTotal * tipDecimal;
-    // document.getElementById("number").textContent= tip;
-    // document.getElementById("number").innerHTML= tip;
+    document.getElementById("number").textContent= tip;
+    document.getElementById("number").innerHTML= tip;
 
 }
 
@@ -38,8 +38,8 @@ document.getElementById("tip").addEventListener('click',totalBill);
 
 function totalBill() {
     total = subTotal + tip;
-    // document.getElementById("tot").textContent= total;
-    // document.getElementById("tot").innerHTML= total;
+    document.getElementById("tot").textContent= total;
+    document.getElementById("tot").innerHTML= total;
 
 }
 
