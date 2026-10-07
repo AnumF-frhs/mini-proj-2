@@ -1,0 +1,26 @@
+/* .container {
+
+    border: 1px solid #000000;
+
+} */
+
+#blue, #tip {
+
+    color:rgb(119, 119, 240);
+}
+
+#green, #paycheck {
+
+    color:rgb(152, 242, 127);
+}
+
+#yellur, #grade {
+
+    color:rgb(243, 243, 144);
+}
+
+#red, #gas {
+
+color: rgb(238, 94, 94);
+
+}
