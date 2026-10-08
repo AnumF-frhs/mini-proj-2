@@ -1,53 +1,55 @@
 // alert ('Welcome! d^-^b');
 
-let calcTip = document.getElementById("tip").value; //button
-let subTotal = document.getElementById("subTotal").value;
-let tipDecimal = document.getElementById("tipDec").value; //0.18
-let hrsWorked = document.getElementById("hrsWork").value;
-let hrRate = document.getElementById("hrRate").value;
-let ptsEarned = document.getElementById("pointsEarned").value;
-let totalPts = document.getElementById("totalPts").value;
-let tankSize = document.getElementById("tankSize").value;
-let priceGal = document.getElementById("priceGal").value;
+var calcTip = document.getElementById("tip"); //button
+var subTotal = document.getElementById("subTotal").valueasnumber;
+var percentage = document.getElementById("tipDec").valueasnumber; //0.18
+
+// let hrsWorked = document.getElementById("hrsWork").value;
+// let hrRate = document.getElementById("hrRate").value;
+
+// let ptsEarned = document.getElementById("pointsEarned").value;
+// let totalPts = document.getElementById("totalPts").value;
+
+// let tankSize = document.getElementById("tankSize").value;
+// let priceGal = document.getElementById("priceGal").value;
 
 
-let totBill = 0;
-let tip = 0;
+
+// function billTotal() {
+
+//     let totalBill = subTotal + tip;
+
+// }
+
+console.log(calcTip);
 
 
-
-function totalBill() {
-
-    let total = subTotal + tip;
-
-}
-
-console.log(tip);
-// tipAmount();
-
-document.getElementById("tip").addEventListener('click',tipAmount);
+// document.getElementById("tip").addEventListener('click',tipAmount);
+calcTip.addEventListener('click', tipAmount);
 
 function tipAmount() {
-    tip = subTotal * tipDecimal;
-    document.getElementById("number").textContent= tip;
-    document.getElementById("number").innerHTML= tip;
+       var tip = subTotal * percentage;
+      tip= document.getElementById("number").textContent;
+    //  document.getElementById("number").innerHTML= tip;
+    return tip;
+    
+  
 
 }
-
-document.getElementById("tip").addEventListener('click',totalBill);
-
-function totalBill() {
-    total = subTotal + tip;
-    document.getElementById("tot").textContent= total;
-    document.getElementById("tot").innerHTML= total;
-
-}
-
-console.log(tip)
+console.log(tipAmount);
+tipAmount();
 
 
-// calcTip.addEventListener("click", totalBill);
-// calcTip.addEventListener("click", tipAmount);
+// document.getElementById("tip").addEventListener('click',totalBill);
+
+// function totalBill() {
+//     total = subTotal + tip;
+//     document.getElementById("tot").textContent= total;
+//     document.getElementById("tot").innerHTML= total;
+
+// }
+
+
 
 
 
@@ -64,30 +66,17 @@ console.log(tip)
 // let askButton = document.getElementById ("askBtn");
 
 
-// // STEP 2: Add a click event listener to the button
-// // TODO: When the button is clicked, run the askQuestion function
+
 // askButton.addEventListener("click", askQuestion);
 
 
-// // STEP 3: Create the function that runs when the button is clicked
-// function askQuestion() {
-
-//   // STEP 4: Get the user's question from the input box
-//   // TODO: Select the input and store its value in a variable
 //   let question = document.getElementById ("questionInput").value;
 // //   console.log(question);
 
 
-//   // STEP 5: Check if the question is empty
-//   // TODO: Write an if statement that checks if question is an empty string
-//   if ( question === "") {
 
-//     // TODO: Display an error message in the answerText element
 //     document.getElementById("answerText").textContent = "Error; You must write a question.😢";
 
-//     // NOTE: This stops the function so no other code runs
-//     return;
-//   }
 
 // document.getElementById('sportscar-btn').addEventListener('click', showSports);
 // function showSports() {
