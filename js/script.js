@@ -1,8 +1,8 @@
 // alert ('Welcome! d^-^b');
 
 var calcTip = document.getElementById("tip"); //button
-var subTotal = document.getElementById("subTotal").valueasnumber;
-var percentage = document.getElementById("tipDec").valueasnumber; //0.18
+var subTotal = document.getElementById("subTotal").valueAsNumber;
+var percentage = document.getElementById("tipDec").valueAsNumber; //0.18
 
 // let hrsWorked = document.getElementById("hrsWork").value;
 // let hrRate = document.getElementById("hrRate").value;
