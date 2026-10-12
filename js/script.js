@@ -4,14 +4,14 @@ var calcTip = document.getElementById("tip"); //button
 var subTotal = document.getElementById("subTotal").valueAsNumber;
 var percentage = document.getElementById("tipDec").valueAsNumber; //0.18
 
-// let hrsWorked = document.getElementById("hrsWork").valueAsNumber;
-// let hrRate = document.getElementById("hrRate").valueAsNumber;
+let hrsWorked = document.getElementById("hrsWork").valueAsNumber;
+let hrRate = document.getElementById("hrRate").valueAsNumber;
 
-// let ptsEarned = document.getElementById("pointsEarned").valueAsNumber;
-// let totalPts = document.getElementById("totalPts").valueAsNumber;
+let ptsEarned = document.getElementById("pointsEarned").valueAsNumber;
+let totalPts = document.getElementById("totalPts").valueAsNumber;
 
-// let tankSize = document.getElementById("tankSize").valueAsNumber;
-// let priceGal = document.getElementById("priceGal").valueAsNumber;
+let tankSize = document.getElementById("tankSize").valueAsNumber;
+let priceGal = document.getElementById("priceGal").valueAsNumber;
 
 
 
