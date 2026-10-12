@@ -1,7 +1,8 @@
 // alert ('Welcome! d^-^b');
 
 var tipOutput = document.getElementById('tip'); //button
-var totalBill = document.getElementById('subTotal');
+var subTotal = document.getElementById('subTotal'); 
+var totalBill = document.getElementById('tot');
 var percentage = document.getElementById('percentage'); //0.18
 
 let hrsWorked = document.getElementById("hrsWork");
@@ -20,7 +21,7 @@ let priceGal = document.getElementById("priceGal");
 
 //actual code
 
-let tipBtn = document.getElementById("tipButton");
+let tipBtn = document.getElementById("tip");
 tipBtn.addEventListener('click', function() {
 
   let subTotal = document.getElementById('subTotal').valueAsNumber;
