@@ -15,28 +15,50 @@ let priceGal = document.getElementById("priceGal").valueAsNumber;
 
 
 
+
+
+
+//actual code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function billTotal() {
 
 //     let totalBill = subTotal + tip;
 
 // }
 
-console.log(calcTip);
+// console.log(calcTip);
 
-// document.getElementById("tip").addEventListener('click',tipAmount);
+// // document.getElementById("tip").addEventListener('click',tipAmount);
 
-// document.getElementById("tip").addEventListener('click',tipAmount);
-calcTip.addEventListener('click', tipAmount);
+// // document.getElementById("tip").addEventListener('click',tipAmount);
+// calcTip.addEventListener('click', tipAmount);
 
-function tipAmount() {
-       var tip = subTotal * percentage;
-      tip= document.getElementById("number").textContent;
-    //  document.getElementById("number").innerHTML= tip;
-    return tip;
+// function tipAmount() {
+//        var tip = subTotal * percentage;
+//       tip= document.getElementById("number").textContent;
+//     //  document.getElementById("number").innerHTML= tip;
+//     return tip;
     
   
 
-}
+// }
 // console.log(tipAmount);
 // tipAmount();
 
