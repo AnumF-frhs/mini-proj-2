@@ -28,15 +28,15 @@ console.log(calcTip);
 // document.getElementById("tip").addEventListener('click',tipAmount);
 calcTip.addEventListener('click', tipAmount);
 
-// function tipAmount() {
-//        var tip = subTotal * percentage;
-//       tip= document.getElementById("number").textContent;
-//     //  document.getElementById("number").innerHTML= tip;
-//     return tip;
+function tipAmount() {
+       var tip = subTotal * percentage;
+      tip= document.getElementById("number").textContent;
+    //  document.getElementById("number").innerHTML= tip;
+    return tip;
     
   
 
-// }
+}
 // console.log(tipAmount);
 // tipAmount();
 
