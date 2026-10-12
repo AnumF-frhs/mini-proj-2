@@ -4,14 +4,14 @@ var calcTip = document.getElementById("tip"); //button
 var subTotal = document.getElementById("subTotal").valueAsNumber;
 var percentage = document.getElementById("tipDec").valueAsNumber; //0.18
 
-// let hrsWorked = document.getElementById("hrsWork").value;
-// let hrRate = document.getElementById("hrRate").value;
+// let hrsWorked = document.getElementById("hrsWork").valueAsNumber;
+// let hrRate = document.getElementById("hrRate").valueAsNumber;
 
-// let ptsEarned = document.getElementById("pointsEarned").value;
-// let totalPts = document.getElementById("totalPts").value;
+// let ptsEarned = document.getElementById("pointsEarned").valueAsNumber;
+// let totalPts = document.getElementById("totalPts").valueAsNumber;
 
-// let tankSize = document.getElementById("tankSize").value;
-// let priceGal = document.getElementById("priceGal").value;
+// let tankSize = document.getElementById("tankSize").valueAsNumber;
+// let priceGal = document.getElementById("priceGal").valueAsNumber;
 
 
 
@@ -23,21 +23,22 @@ var percentage = document.getElementById("tipDec").valueAsNumber; //0.18
 
 console.log(calcTip);
 
+// document.getElementById("tip").addEventListener('click',tipAmount);
 
 // document.getElementById("tip").addEventListener('click',tipAmount);
 calcTip.addEventListener('click', tipAmount);
 
-function tipAmount() {
-       var tip = subTotal * percentage;
-      tip= document.getElementById("number").textContent;
-    //  document.getElementById("number").innerHTML= tip;
-    return tip;
+// function tipAmount() {
+//        var tip = subTotal * percentage;
+//       tip= document.getElementById("number").textContent;
+//     //  document.getElementById("number").innerHTML= tip;
+//     return tip;
     
   
 
-}
-console.log(tipAmount);
-tipAmount();
+// }
+// console.log(tipAmount);
+// tipAmount();
 
 
 // document.getElementById("tip").addEventListener('click',totalBill);
